@@ -48,9 +48,9 @@ generateBtn.addEventListener("click", generateQuote);
 // Generate a quote on page load
 generateQuote();
 
-  async function fetchQuote() {
-    const response = await fetch("https://api.quotable.io/random");
-    const data = await response.json();
-    quoteElement.textContent = data.content;
-    authorElement.textContent = `- ${data.author}`;
-  }
+  // async function fetchQuote() {
+  //   const response = await fetch("https://api.quotable.io/random");
+  //   const data = await response.json();
+  //   quoteElement.textContent = data.content;
+  //   authorElement.textContent = `- ${data.author}`;
+  // }
